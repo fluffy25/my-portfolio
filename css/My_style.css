@@ -1,18 +1,21 @@
+.container{
+max-width: 870px;
+width:100%;
+margin: auto;
+}
+
+
 body{
 font-family: 'Inter';
 background-color: #fff;
 }
-
 .navbar{
-max-width: 870px;
-width:100%;
-margin: auto;
+
 display: flex;
 align-items: center;
 justify-content: space-between;
 
 }
-
 .nav-list{
 display: flex;
 align-items:center;
@@ -20,7 +23,6 @@ list-style: none;
 padding: 0;
 
 }
-
 .nav-link{
 text-decoration: none;
 color: #211B12;
@@ -28,7 +30,74 @@ margin-left: 24px;
 font-size: 16px;
 line-height: 150%;
 }
-
 .nav-link.active{
     font-weight: 700;
+}
+
+.header{
+padding:70px 0;
+display:flex;
+align-items:center;
+
+}
+
+.header-text{
+margin-left:27px;
+
+}
+
+.header-strong{
+font-weight: 700;
+font-size: 48px;
+line-height: 125%;
+}
+
+.header-heading{
+font-weight: 700;
+font-size: 24px;
+line-height: 135%;
+/* or 32px */
+letter-spacing: -0.02em;
+margin-top:8px;
+margin-bottom:24 px;
+}
+
+.header-primary{
+color:#BF7506;
+
+}
+
+.social-list{
+list-style: none;
+padding:0;
+display:flex;
+align-items:center;
+
+}
+
+.social-link{
+display:inline-block;
+padding:8px;
+
+}
+
+.header-links{
+display:flex;
+align-items:center;
+}
+
+.cv-download{
+display:flex;
+padding: 7px 8px;
+margin-left: 50px;
+align-items:center;
+text-decoration: none;
+color:#211B12;
+border-bottom: 2px solid #211B12;
+
+}
+
+.cv-icon{
+margin-right:4px;
+
 }
